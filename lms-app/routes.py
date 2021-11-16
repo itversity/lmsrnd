@@ -8,4 +8,4 @@ from models import User
 def hello_world():
     hostname = socket.gethostname()
     user = User.query.first()
-    return f"<p>Hello, World from {user.user_first_name} deployed on {hostname}</p>"
+    return f"<p>Hello, World from {user.user_first_name} deployed on {hostname} - feature1</p>"
